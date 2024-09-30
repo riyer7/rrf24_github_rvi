@@ -2,6 +2,8 @@
 							Template Main do-file							   
 *******************************************************************************/
 
+// Until first end of do file - command for making code run on any computer by preinstalling packages
+
 	* Set version
 	*version ???
 
@@ -10,9 +12,9 @@
 	display "`c(username)'" 	//Check username and copy to set project globals by user
 	
 	* Add file paths to DataWork folder and the Github folder for RRF2024
-	if "`c(username)'" == "" {
+	if "`c(username)'" == "wb596077" { // CHANGE THIS
         *global onedrive "???/DataWork"
-		global github 	"???/GitHub-rrf-24"
+		global github 	"C:\WBG\github\rrf24_github_rvi" // CHANGE THIS
     }
 	
 	
@@ -21,7 +23,8 @@
 	global code 	"${github}/Stata/Code"
 	global outputs 	"${github}/Stata/Outputs"
 	
-	sysdir set PLUS "???"
+	sysdir set PLUS "${code}/ado" // CHANGE THIS (AND CREATE THIS FOLDER BEFORE) 
+	* Works only for current stata session, when close and reopen stata, run this again
 
 
 	* Install packages 
