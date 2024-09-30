@@ -26,6 +26,8 @@
 	sysdir set PLUS "${code}/ado" // CHANGE THIS (AND CREATE THIS FOLDER BEFORE) 
 	* Works only for current stata session, when close and reopen stata, run this again
 
+	sysdir set PLUS "${code}/ado" // CHANGE THIS (AND CREATE THIS FOLDER BEFORE)
+
 
 	* Install packages 
 	local user_commands	ietoolkit iefieldkit winsor sumstats estout keeporder grc1leg2 //Add required user-written commands
