@@ -1,0 +1,51 @@
+This report was created by the Stata command iesave (version 7.3). Read more about this command and the purpose of this report on https://dimewiki.worldbank.org/iesave
+
+Number of observations:,1758
+Number of variables:,32
+ID variable(s):,hhid
+.dta version used:,14
+Data signature:,1758:32(85547):1006362095:2223673194
+Last saved by:,User info withheld, see option userinfo in command iesave.
+Last saved at:,16:51:08 1 Oct 2024
+
+Variable type: Continuous
+Name,Label,Type,Complete obs,Mean,Std Dev,p0,p25,p50,p75,p100
+ar_farm,"How much land do you farm? AREA",double,1620, 1.321, 1.062, .125, 1, 1.214, 2, 32.38
+duration,"Duration of the interview (minutes)",int,1758, 106.3, 32.76, 27, 84, 102, 123, 293
+enid,"Enumerator ID",int,1758, 716.5, 129.5, 420, 619, 805, 818, 828
+food_cons,"Annual food consumption value",double,1758, 639223, 513172, 5096, 261300, 517400, 858000, 4903600
+hh_size,"Number of members in the household",byte,1758, 3.979, 2.606, 1, 2, 3, 5, 17
+hhid,"Household ID",int,1758, 5171, 2530, 1001, 2935, 5064, 7124, 9922
+livestock_before,"How many livestock did the HH own 12 months ago?",int,1758, 6.637, 10.23, 0, 0, 3, 10, 150
+livestock_now,"How many livestock does the HH own today?",int,1758, 2.991, 6.548, 0, 0, 0, 4, 160
+n_adult,"Number of Adults (18-59 years)",byte,1758, 1.063, 1.18, 0, 0, 1, 2, 8
+n_child_17,"Number of children between 6 to 17 years of age",byte,1758, 1.186, 1.417, 0, 0, 1, 2, 10
+n_child_5,"Number of childeren below or equal to 5 years of age",byte,1758, .4681, .7962, 0, 0, 0, 1, 5
+n_elder,"Number of Elderly (> 60 years)",byte,1758, 1.262, .7189, 0, 1, 1, 2, 4
+nonfood_cons,"Annual non-food consumption value",long,1758, 146873, 251020, 0, 23470, 69933, 166600, 4108400
+vid,"anonymous village ID",byte,1758, 41.42, 23.86, 1, 20, 41, 62, 82
+
+Variable type: Date or date-time
+Name,Label,Format,Complete obs,Unique values,Mean,Std Dev,Min,Median,Max
+submissiondate,"Date of interview",%td,1758,93,03mar2009, 38.77,20dec2008,27feb2009,07may2009
+
+Variable type: Categorical
+Name,Label,Value label,Complete obs,Number of levels,Number of unlabeled levels,Top count
+ar_unit,"What is the total area you farm? AREA UNIT",ar_unit,1620,2,0,Acre:1206 Hectare:414
+assoc,"Is there a parent association in this village?",yesno,1758,3,1,No:1270 :291 Yes:197
+crop,"Primary crop grown on this owned/rented/borrowed land",df_CROP,1620,24,0,Maize:327 Sorghum:239 Cassava:183 Paddy:168 Other pulses:161
+crop_damage,"Experienced crop damage",yesno,1758,2,0,Yes:912 No:846
+crop_prp,"Purpose of the primary crop",df_CROPPURPOSE,1509,3,0,Mainly for Food:1174 Mainly for Sale:247 Food and sale (about 50/50):88
+drought_flood,"Experienced drought/flood",yesno,1758,2,0,Yes:1038 No:720
+enegry,"What is the main source of energy used for lighting?",df_LENERGY,1758,7,0,Kerosine/paraffin:1319 Firewood:392 Battery:30 Main electricity:11 Other (specify):3
+farm,"Does anyone in this household conduct farming activities?",yesno,1758,2,0,Yes:1620 No:138
+female_head,"Is the household head female?",yesno,1758,2,0,No:1072 Yes:686
+floor,"What material is the floor of this house made of?",df_FLOOR,1758,2,0,Mud/earth:1653 Concrete/Cement:105
+health,"Is there a village health commitee in this village?",yesno,1758,3,1,Yes:1003 No:667 :88
+rel_head,"What is the religion of the HH head?",df_RELIGION,1758,6,0,Muslim:1066 Protestant:299 Catholic:235 Other Christian:91 Traditionalist:57
+roof,"What material is the roof of this house made of?",df_ROOF,1758,3,0,Thatch:810 Iron sheets:616 Mud:332
+trust_lead,"In general, can you trust leaders of your community?",yesno,1758,3,1,Yes:1408 No:342 :8
+trust_mem,"In general, can you trust members of your community?",yesno,1758,3,1,Yes:972 No:776 :10
+walls,"What material are the walls of this house made of?",df_WALLS,1758,3,0,Mud/Mud brick:1524 Wood/Bamboo:153 Concrete/Cement:81
+water,"What is the HH's main source of drinking water throughout the year?",df_WATER,1758,11,0,Uncovered Well:445 River, lake, pond:420 Pipe bourne water treated:336 Piped bourne water untreated:208 Bore hole/hand pump:123
+
