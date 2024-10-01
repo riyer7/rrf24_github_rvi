@@ -5,7 +5,7 @@
 // Until first end of do file - command for making code run on any computer by preinstalling packages
 
 	* Set version
-	*version ???
+	version 18
 
 	* Set project global(s)	
 	// User: you 
@@ -15,21 +15,20 @@
 	if "`c(username)'" == "wb596077" { // CHANGE THIS
         *global onedrive "???/DataWork"
 		global github 	"C:\WBG\github\rrf24_github_rvi" // CHANGE THIS
+		global onedrive "C:\Users\wb596077\OneDrive - WBG\rrf\DataWork\DataWork" // CHANGE THIS
     }
 	
 	
 	* Set globals for sub-folders 
-	global data 	"${onedrive}/Data"
-	global code 	"${github}/Stata/Code"
-	global outputs 	"${github}/Stata/Outputs"
+	global data 	"${onedrive}\Data"
+	global code 	"${github}\Stata\Code"
+	global outputs 	"${github}\Stata\Outputs"
 	
-	sysdir set PLUS "${code}/ado" // CHANGE THIS (AND CREATE THIS FOLDER BEFORE) 
+	sysdir set PLUS "${code}\ado" // CHANGE THIS (AND CREATE THIS FOLDER BEFORE) 
 	* Works only for current stata session, when close and reopen stata, run this again
 
-	sysdir set PLUS "${code}/ado" // CHANGE THIS (AND CREATE THIS FOLDER BEFORE)
-
-
 	* Install packages 
+	/*
 	local user_commands	ietoolkit iefieldkit winsor sumstats estout keeporder grc1leg2 //Add required user-written commands
 
 	foreach command of local user_commands {
@@ -38,6 +37,7 @@
 		   ssc install `command'
 	   }
 	}
+	*/
 
 	* Run do files 
 	* Switch to 0/1 to not-run/run do-files 
