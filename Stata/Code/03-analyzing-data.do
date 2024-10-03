@@ -133,9 +133,11 @@
 			
 	use "${data}\Final\TZA_amenity_analysis.dta", clear
 	
+	/*
 	encode district, gen(dist)
     drop district
     rename dist district
+	*/
 	
 	* create  variable to highlight the districts in sample
 	gen in_sample = inlist(district, 1, 3, 6)
