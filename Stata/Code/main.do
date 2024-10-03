@@ -13,9 +13,9 @@ clear all
 	display "`c(username)'" 	//Check username and copy to set project globals by user
 	
 	* Add file paths to DataWork folder and the Github folder for RRF2024
-	if "`c(username)'" == "wb596077" { // CHANGE THIS
-		global github 	"C:\WBG\github\rrf24_github_rvi" // CHANGE THIS
-		global onedrive "C:\Users\wb596077\OneDrive - WBG\rrf\DataWork\DataWork" // CHANGE THIS
+	if "`c(username)'" == "stell" { // CHANGE THIS
+		global github 	"C:\Users\stell\OneDrive\Escritorio\Documentos\GitHub\rrf24_github_rvi" // CHANGE THIS
+		global onedrive "C:\Users\stell\Dropbox\RRF course\DataWork" // CHANGE THIS
     }
 	
 	
