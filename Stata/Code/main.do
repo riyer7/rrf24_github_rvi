@@ -2,6 +2,7 @@
 							Template Main do-file							   
 *******************************************************************************/
 
+clear all
 // Until first end of do file - command for making code run on any computer by preinstalling packages
 
 	* Set version
