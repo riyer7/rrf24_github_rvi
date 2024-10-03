@@ -41,9 +41,9 @@
 	* Run do files 
 	* Switch to 0/1 to not-run/run do-files 
 	* If 1 the code will run, if 0 that code will be skipped and rest will be run
-	if (1) do "${code}/01-processing-data.do"
-	if (1) do "${code}/02-constructing-data.do"
-	if (1) do "${code}/03-analyzing-data.do"
+	if (1) do "${code}\01-processing-data.do"
+	if (1) do "${code}\02-constructing-data.do"
+	if (1) do "${code}\03-analyzing-data.do"
 
 
 * End of do-file!	
